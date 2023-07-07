@@ -20,7 +20,7 @@ ${urlfetch https://valorant-rank.vercel.app/rank/${1}?channel=${channel}&user=${
 ### Streamlabs
 If you are using Streamlabs, send the following command in the chat of your Twitch channel (or add it via the Streamlabs site manually):
 ```
-!addcommand !getrank {readapi.https://valorant-rank.vercel.app/rank/{target.name}?channel={channel.name}&user={user.name}}
+!addcommand !getrank {readapi.https://valorant-rank.vercel.app/rank/{target.name}?channel={channel.name}&&user={user.name}}
 ```
 <br />
 
