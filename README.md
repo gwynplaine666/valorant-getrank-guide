@@ -1,4 +1,4 @@
-# How to add Valorant Rank Bot commands to your chatbot
+# How to add Valorant Rank Bot command to your chatbot
 
 > Note: Don't forget that !getrank is just the name of the command, you can change it to whatever you want.
 
