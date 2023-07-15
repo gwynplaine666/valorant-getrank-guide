@@ -7,6 +7,11 @@ If you are using Nightbot, send the following command in the chat of your Twitch
 ```
 !addcom !getrank $(urlfetch https://valorant-rank.vercel.app/rank/$(querystring)?channel=$(channel)&user=$(user))
 ```
+Or if you want to edit
+
+```
+!editcom !getrank $(urlfetch https://valorant-rank.vercel.app/rank/$(querystring)?channel=$(channel)&user=$(user))
+```
 
 ### StreamElements
 If you are using StreamElements, add the command as follows:
@@ -21,6 +26,10 @@ ${urlfetch https://valorant-rank.vercel.app/rank/${1}?channel=${channel}&user=${
 If you are using Streamlabs, send the following command in the chat of your Twitch channel (or add it via the Streamlabs site manually):
 ```
 !addcommand !getrank {readapi.https://valorant-rank.vercel.app/rank/{target.name}?channel={channel.name}&&user={user.name}}
+```
+Or if you want to edit
+```
+!editcommand !getrank {readapi.https://valorant-rank.vercel.app/rank/{target.name}?channel={channel.name}&&user={user.name}}
 ```
 <br />
 
