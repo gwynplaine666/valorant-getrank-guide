@@ -33,7 +33,18 @@ Or if you want to edit
 ```
 <br />
 
-> Please note that fetching data is currently working for the EMEA region only.
-> However, if you would like to extend the functionality to other regions, please feel free to contact me personally via Twitter or Telegram at @gwynnnplaine.
+### Fetch data from a specific region
+
+By default, the command fetches data from the EU region.
+
+You can change this by passing the <b>region</b> field: 
+
+```
+!addcom !getrank $(urlfetch https://valorant-rank.vercel.app/rank/$(querystring)?channel=$(channel)&user=$(user)&region=ap)
+``` 
+
+Example below shows how to fetch the data from the Asia-Pacific region.
+
+List of available regions: eu, na, ap, kr, latam, br
 
 #### Made by @gwynplaine666, with many thanks to @HenrikDev for the data he provided.
